@@ -1,5 +1,7 @@
 # Sample Project for FB18256794
 
+**Update:** This bug is fixed in macOS 26.0 Beta (25A5306g) (i.e., Tahoe beta 3)
+
 This project demonstrates a bug where the `.glassEffect()` modifier fails to show an un-tinted glass effect after it has shown a tinted glass effect one time. See [the code in ContentView.swift for details](https://github.com/siracusa/GlassSwitchBug/blob/main/GlassSwitchBug/ContentView.swift#L35).
 
 **Expected behavior:** Clicking the "Toggle Tint" button should toggle the teal-tinted background on and off.
